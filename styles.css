@@ -1,0 +1,20 @@
+body {
+  background-image: url('./IMG_6101-900x400.jpeg');
+  background-size: cover;
+}
+
+.text {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 700px;
+  height: 200px;
+  background-color: rgb(127, 56, 2);
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 8px 10px 8px 10px;
+}
