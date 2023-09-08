@@ -1,6 +1,28 @@
 body {
-  background-image: url('./IMG_6101-900x400.jpeg');
-  background-size: cover;
+  vertical-align: middle;
+}
+
+.text:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url('./bg.png');
+    background-repeat: none;
+    background-size: cover;
+    width: 1400px;
+    height: 1700px;
+    margin-top: -100px;
+    margin-left: -10px;
+    filter: blur(10px);
+    position: absolute;
+    
+}
+.social {
+  margin-left: 525px;
+  margin-top: -90px;
 }
 
 .text {
@@ -13,8 +35,38 @@ body {
   text-align: center;
   color: white;
   border-radius: 10px;
+  position: absolute;
+  transform: translateY(-50%);
+
+}
+ul {
+list-style-type: none;
+text-align:  left;
+margin-left: -10px;
+}
+
+.ig, .fb {
+  height: 75px;
+  width: 75px;
+}
+
+.contact {
+  font-family: arial;
+  font-size: 24px;
+  margin-left: 25px;
+  width: 700px;
+  height: 150px;
+  background-color: rgb(127, 56, 2);
+  text-align: left;
+  color: white;
+  border-radius: 10px;
+}
+
+h4 {
+  text-align: center;
+  margin: 20px 10px 8px 10px;
 }
 
 h1 {
-  margin: 8px 10px 8px 10px;
+  margin: 20px 10px 8px 10px;
 }
